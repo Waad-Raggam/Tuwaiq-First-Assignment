@@ -23,155 +23,169 @@
 </head>
 
 <body>
-    <header>
-        <!-- navbar -->
-        <nav class="navbar bg-info">
-            <div class="container-fluid d-flex justify-content-between align-items-center">
-                <ul class="list-inline text-white mt-3">
-                    <li class="list-inline-item">
-                        <img src="hotel-svgrepo-com.png" width="60" height="50">
-                    </li>
-                    <li class="list-inline-item">
-                        Hotels
-                    </li>
-                    <li class="list-inline-item">
-                        Car Rentals
-                    </li>
-                    <li class="list-inline-item">
-                        Attractions
-                    </li>
-                </ul>
-                <div class="d-flex align-items-center">
-                    <input type="text" class="form-control doc-search" placeholder="Search for hotel">
-
-                    <button type="button" class="btn btn-outline-primary" data-mdb-ripple-init>Search</button>
-
+    <div class="div">
+        <header>
+            <!-- navbar -->
+            <nav class="navbar bg-info">
+                <div class="container-fluid d-flex justify-content-between align-items-center">
+                    <ul class="list-inline text-white mt-3">
+                        <li class="list-inline-item">
+                            <img src="hotel-svgrepo-com.png" width="60" height="50">
+                        </li>
+                        <li class="list-inline-item">
+                            Hotels
+                        </li>
+                        <li class="list-inline-item">
+                            Car Rentals
+                        </li>
+                        <li class="list-inline-item">
+                            Attractions
+                        </li>
+                    </ul>
+                    <div class="d-flex align-items-center">
+                        <input type="text" class="form-control doc-search" placeholder="Search for hotel">
+    
+                        <button type="button" class="btn btn-outline-primary" data-mdb-ripple-init>Search</button>
+    
+                    </div>
+    
+                    <ul class="list-inline mt-3">
+                        <li class="list-inline-item">
+                            <a href="https://github.com">
+                                <i class="bi bi-github text-white"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <button type="button" class="btn btn-outline-primary" data-mdb-ripple-init>Register</button>
+                        </li>
+                        <li class="list-inline-item">
+                            <button type="button" class="btn btn-outline-primary" data-mdb-ripple-init>Sign in</button>
+                        </li>
+                    </ul>
                 </div>
+            </nav>
+        </header>
+    </div>
 
-                <ul class="list-inline mt-3">
-                    <li class="list-inline-item">
-                        <a href="https://github.com">
-                            <i class="bi bi-github text-white"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <button type="button" class="btn btn-outline-primary" data-mdb-ripple-init>Register</button>
-                    </li>
-                    <li class="list-inline-item">
-                        <button type="button" class="btn btn-outline-primary" data-mdb-ripple-init>Sign in</button>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <!-- Card -->
-        <div class="card text-dark bg-light mb-3 mt-3 ml-5" style="max-width: 80rem;">
-           
-            <!-- Card header -->
-            <div class="card-header">
-                Featured
-            </div>
-
-            <!-- Card body -->
-            <div class="card-body">
-                <div class="row">
-                    <!-- Hotel image -->
-                    <div class="col-sm-2 justify-content-start">
-                        <img src="Andalus-Habitat.jpeg" width="250" height="250">
-                    </div>
-                    <!-- Booking description -->
-                    <div class="col-sm-6 text-center">
-                        <a href="#">
-                            <h3 class="text-primary">Andalus Habitat Hotel</h3>
-                        </a>
-                        <ul class="list-inline">
-                            <li class="list-inline-item">1.1 km from centre</li>
-                            <li class="list-inline-item"><a href="#">Show map</a></li>
-                            <li class="list-inline-item"><a href="#">Al Andalus, Jeddah</a></li>
-                        </ul>
-                        <span class="badge bg-success">Limited-time Deal</span>
-                        <ul class="list-group-horizontal-sm">
-                            <li class="list-group-item"><strong>Deluxe Room (2 Adults + 1 Child)</strong></li>
-                            <li class="list-group-item"><small>1 Queen Bed</small></li>
-                            <li class="list-group-item"> Free Cancellation <i class="bi bi-check2 text-success"></i>
-                            </li>
-                            <li class="list-group-item"> No prepayment needed – pay at the property <i
-                                    class="bi bi-check2 text-success"></i></li>
-                        </ul>
-                        <strong class="text-danger text-start">Only 4 rooms left at this price on our site</strong>
-                    </div>
-<!-- Booking pricing -->
-                    <div class="col-sm-2">
-                        <table>
-                            <tr>
-                                <td class="p-2">
-                                    <h1 class="badge bg-primary even-larger-badge">8.1</h1>
-                                    <div class="review-info">
-                                        <strong>Very good</strong>
-                                        <br>
-                                        <span class="reviews">1,970 reviews</span>
-                                    </div>
-                                </td>
-                            </tr>
-                        </table>
-                        <span class="badge bg-warning">New to Booking.com</span>
-                        <div class="pt-5">
-                            1 night, 2 adults
+    <div class="div mb-3 mt-3 ml-5" style="max-width: 80rem;">
+        <main>
+            <!-- Card -->
+            <div class="card text-dark bg-light">
+    
+                <!-- Card header -->
+                <div class="card-header">
+                    Featured
+                </div>
+    
+                <!-- Card body -->
+                <div class="card-body">
+                    <div class="row">
+                        <!-- Hotel image -->
+                        <div class="col-sm-2 justify-content-start">
+                            <img src="Andalus-Habitat.jpeg" width="250" height="250">
                         </div>
-                        <h3>SAR 250 </h3>
-                        <small>Includes taxes and fees</small>
-                        <div class="row">
-                            <div class="col">
-                                <button class="btn btn-primary">See Availablility</button>
+                        <!-- Booking description -->
+                        <div class="col-sm-6 text-center">
+                            <a href="#">
+                                <h3 class="text-primary">Andalus Habitat Hotel</h3>
+                            </a>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">1.1 km from centre</li>
+                                <li class="list-inline-item"><a href="#">Show map</a></li>
+                                <li class="list-inline-item"><a href="#">Al Andalus, Jeddah</a></li>
+                            </ul>
+                            <span class="badge bg-success">Limited-time Deal</span>
+                            <ul class="list-group-horizontal-sm">
+                                <li class="list-group-item"><strong>Deluxe Room (2 Adults + 1 Child)</strong></li>
+                                <li class="list-group-item"><small>1 Queen Bed</small></li>
+                                <li class="list-group-item"> Free Cancellation <i class="bi bi-check2 text-success"></i>
+                                </li>
+                                <li class="list-group-item"> No prepayment needed – pay at the property <i
+                                        class="bi bi-check2 text-success"></i></li>
+                            </ul>
+                            <strong class="text-danger text-start">Only 4 rooms left at this price on our site</strong>
+                        </div>
+                        <!-- Booking pricing -->
+                        <div class="col-sm-2">
+                            <table>
+                                <tr>
+                                    <td class="p-2">
+                                        <h1 class="badge bg-primary even-larger-badge">8.1</h1>
+                                        <div class="review-info">
+                                            <strong>Very good</strong>
+                                            <br>
+                                            <span class="reviews">1,970 reviews</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                            <span class="badge bg-warning">New to Booking.com</span>
+                            <div class="pt-5">
+                                1 night, 2 adults
+                            </div>
+                            <h3>SAR 250 </h3>
+                            <small>Includes taxes and fees</small>
+                            <div class="row">
+                                <div class="col">
+                                    <button class="btn btn-primary">See Availablility</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+    
+                <!-- Card footer -->
+                <div class="card-footer">
+                    <small><a href="#">Visit Hotel Website</a></small>
+                </div>
             </div>
-
-            <!-- Card footer -->
-            <div class="card-footer">
-                <small><a href="#">Visit Hotel Website</a></small>
+            <!-- Table -->
+            <div class="div mt-5 mr-5 ml-5" dir="rtl">
+                <table class="table table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">رقم المنتج</th>
+                            <th scope="col">اسم المنتج</th>
+                            <th scope="col">وصف المنتج</th>
+                            <th scope="col">سعر المنتج</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>سامسونج جالكسي تاب اس 9</td>
+                            <td>2,899 ر.س.</td>
+                            <td>سامسونج جالكسي تاب اس 9 تابلت لوحي واي فاي</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>سوني بلايستيشن 5</td>
+                            <td>2,299 ر.س.</td>
+                            <td>سوني بلايستيشن 5 سليم راي‎-‎جهاز اصدار بلو</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>ام اس اي Thin ‎15</td>
+                            <td>2,999 ر.س</td>
+                            <td>ام اس اي Thin ‎15 كمبيوتر محمول للالعاب</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-        </div>
-        <!-- Table -->
-        <div class="div mt-5 mr-5 ml-5" dir="rtl">
-            <table class="table table-bordered table-hover">
-                <thead>
-                    <tr>
-                        <th scope="col">رقم المنتج</th>
-                        <th scope="col">اسم المنتج</th>
-                        <th scope="col">وصف المنتج</th>
-                        <th scope="col">سعر المنتج</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>سامسونج جالكسي تاب اس 9</td>
-                        <td>2,899 ر.س.</td>
-                        <td>سامسونج جالكسي تاب اس 9 تابلت لوحي واي فاي</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>سوني بلايستيشن 5</td>
-                        <td>2,299 ر.س.</td>
-                        <td>سوني بلايستيشن 5 سليم راي‎-‎جهاز اصدار بلو</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>ام اس اي Thin ‎15</td>
-                        <td>2,999 ر.س</td>
-                        <td>ام اس اي Thin ‎15 كمبيوتر محمول للالعاب</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </main>
-    <footer>
+        </main>
+    </div>
+    
 
-    </footer>
+    <div class="container my-5" dir="rtl">
+        <footer class="text-center text-lg-start" style="background-color: #ffede7;">
+            <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                برنامج بناء المواقع الديناميكية والتفاعلية بإستخدام <a class="text-dark"
+                    href="mailto: tuwaiq68@gmail.com">tuwaiq68@gmail.com</a>
+                - React Js
+            </div>
+        </footer>
+    </div>
+
     <!-- Bootstrap JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
